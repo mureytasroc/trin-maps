@@ -17,7 +17,7 @@ var pathnum = 0;
 var fpp = 0.268211921;
 
 var w = 950;
-var h = 410;
+var h = 445;
 
 var y1 = h*.28;
 var y2 = h*.36;
@@ -27,6 +27,9 @@ var y4 = h*.78;
 var shortest, shortest1,shortest2;
 var x,y,tx,ty;
 var xOrig,yOrig,txOrig,tyOrig; 
+
+var wid=950;
+var hig=445;
 
 var firstPass;
 
@@ -51,7 +54,7 @@ function setup() {
     imH=f3.height;
     imR=imH/imW;
     graphX=0;
-    graphY=height/2-width*imR/2;
+    graphY=0;
     
     centerRatX=graphX/width;
     centerRatY=graphY/height;;
@@ -85,7 +88,7 @@ function draw() {
     }
     
     
-    
+   
 
 
     
@@ -99,7 +102,7 @@ function mouseWheel(event) {
   return false;
 }
 
-function windowResized() {
+/*function windowResized() {
     cnv.size(parseInt(getStyle(document.getElementById("colorBox"),"left"))-parseInt(getStyle(document.getElementById("functionBox"),"width")), windowHeight-topBarHeight);
     cnv.position(xc, yc);
     cnv.parent("canvasdiv");
@@ -108,7 +111,7 @@ function windowResized() {
     graphY=centerRatY*height;
     drawGrid();
     
-}
+}*/
 
 function mousePressed() {
     panX=mouseX;
@@ -124,7 +127,7 @@ function drawGrid(){
     var imW=f3.width;
     var imH=f3.height;
     var imR=imH/imW;
-    image(f3, graphX, graphY, width,width*imR);
+    image(f3, graphX, graphY, wid,hig);
     imW=width;
     imH=width*imR;
     
@@ -184,9 +187,9 @@ if(pathnum>12)
 
 
     xOrig=parseInt(document.querySelectorAll('[value="'+originE.value+'"]')[0].getAttribute("data-x"));
-    yOrig=parseInt(document.querySelectorAll('[value="'+originE.value+'"]')[0].getAttribute("data-y"));
+    yOrig=parseInt(document.querySelectorAll('[value="'+originE.value+'"]')[0].getAttribute("data-y"))+15;
     txOrig=parseInt(document.querySelectorAll('[value="'+destinationE.value+'"]')[0].getAttribute("data-x"));
-    tyOrig=parseInt(document.querySelectorAll('[value="'+destinationE.value+'"]')[0].getAttribute("data-y"));
+    tyOrig=parseInt(document.querySelectorAll('[value="'+destinationE.value+'"]')[0].getAttribute("data-y"))+15;
     
    
     
