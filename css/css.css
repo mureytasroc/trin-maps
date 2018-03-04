@@ -1,0 +1,1239 @@
+p {
+    font:normal 2em Arial;
+    font-size: 20px;
+}
+.bit{
+    font:normal 2em Arial;
+    color:white;
+}
+#box {
+    height: 100%;
+    max-height: 100%;
+    overflow: auto;
+    width: 100%;
+}
+
+
+
+#contact { 
+    float: left; 
+    cursor: pointer; 
+}
+.broken{
+    font-family: 'Indie Flower', cursive;
+    font-size:125%;
+    color:brown;
+}
+.b {
+	font-weight: bold;
+}
+
+.i {
+	font-style: italic;
+}
+.u {
+	text-decoration: underline;
+}
+
+.lt {
+	text-decoration: line-through;
+}
+
+.small {
+	font-size:50%;
+}
+
+.big {
+	font-size:200%;
+}
+
+
+.weird {
+	color:#3D995C;
+}
+
+.r {
+	color:red;
+}
+.w {
+	color:white;
+}
+
+.dream {
+    color:ghostwhite;
+	font-family:"Impact"; 
+	font-size:125%%; 
+}
+.bad {
+    color:firebrick;
+	font-family:"Agency FB"; 
+	font-size:200%; 
+}
+
+#tang {
+	font-family:"Tangerine";
+	font-size:160%;
+}
+
+#robo {
+	font-family:"Roboto"; 
+	font-size:60%;
+}
+
+#emphasis {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#supersub {
+	
+}
+
+#headers {
+
+}
+
+#olist {
+
+}
+
+#ulist {
+
+}
+
+#fonts {
+
+}
+body {
+    overflow: hidden;
+        background:#F6F6F6;font:normal 0.9em Arial; margin:0; padding:0; padding-bottom:60px;}
+h2 {display:inline;}
+.div1, .div2 {width:700px;margin:0 auto;}
+.div1 {margin-top:30px;margin-bottom:60px;text-align:center;line-height:20px;}
+.div1 P {font-size:18px;}
+.div1 a, .div2 a {color:#07C; }
+.div1 a {margin:0 8px;}
+.div1 a.current {color:black; text-decoration:none;}
+.div2 {margin-top:70px;}
+.div2 li {padding-top:6px;padding-bottom:6px;}
+.green {color:Green;}
+.cn {font-family: "Courier New", Georgia;}
+#status {display:inline-block; margin-left:26px;line-height:50px;height:50px;vertical-align:middle;}
+
+.code
+{
+    border: dashed 1px #BCBCCB; padding:8px 12px; background-color: #F3F3F9; white-space:pre; font-family:"Courier New", Georgia;
+    font-size:12px; margin:6px 0;overflow:auto; 
+}
+.active {
+    background-color: deepskyblue;
+}
+.active:hover{
+border-right: none;
+   background-color: blue;
+}
+ul.stuff li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul.stuff li a{
+        display: block;
+        padding: 8px 25px;
+        color: #333;
+        text-decoration: none;
+    }
+    ul.stuff li a:hover{
+        background: #939393;
+    }
+    ul.stuff li ul.dropdown{
+        min-width: 175%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0px;
+        border-right: none;
+    }
+    ul.stuff li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+        border-right: none;
+        top: 37px;
+    }
+    ul.stuff li ul.dropdown li{
+        float:left;
+        width: 120%;
+        display: block;
+        border-right: none;
+        border-bottom: 1px solid #bbb;
+        left: -40px;
+    }
+ul.stuff li ul.dropdown li:last-child{
+    border-bottom: none;
+}
+ul.stuff{
+        padding: 0;
+        list-style: none;
+    float:left;
+    float:top;
+    background-color: lightslategrey;
+       position: fixed;
+    top: -14px;
+    width: 100%;
+    
+
+    }
+ul.stuff2{
+    padding: 0;
+        list-style: none;
+    float:left;
+    float:top;
+    background-color: lightslategrey;
+       position: fixed;
+    top: -14px;
+    width: 100%;
+}
+ul.stuff2 li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul.stuff2 li a{
+        display: block;
+        padding: 8px 25px;
+        color: #333;
+        text-decoration: none;
+    }
+    ul.stuff2 li a:hover{
+        background: #939393;
+        cursor: hand;
+    }
+    ul.stuff2 li ul.dropdown{
+        min-width: 175%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0px;
+        border-right: none;
+    }
+    ul.stuff2 li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+        border-right: none;
+        top: 37px;
+        cursor: hand;
+    }
+    ul.stuff2 li ul.dropdown li{
+        float:left;
+        width: 120%;
+        display: block;
+        border-right: none;
+        border-bottom: 1px solid #bbb;
+        left: -40px;
+    }
+ul.stuff2 li ul.dropdown li:last-child{
+    border-bottom: none;
+}
+body {
+    background-color: lightyellow;
+      margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+    background: url(../images/back2.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+}
+.pig{
+    margin-top: 0px;
+    padding-bottom: 0px;
+  margin-right: 0px;
+  margin-bottom: 0;
+  margin-left: 0px;
+    background: url(../images/back.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+}
+
+h1 {
+    color: olivedrab;
+    text-align: center;
+}
+
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active {
+    background-color: deepskyblue;
+}
+li a:hover {
+    background-color: #111;
+}
+.active:hover{
+    background-color: deepskyblue;
+}*/
+.texting{
+  width:520px; /* or whatever width you want. */
+   max-width:520px; /* or whatever width you want. */
+   display: inline-block; 
+}
+.checkit{
+    width:100%;
+    max-width:auto;
+position:relative;
+    background-color:white;
+    background: url(../images/back1.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+   display: inline-block;
+}
+.checkitcent{
+    background-color:white;
+    display: inline-block;
+    width:150px;
+    max-width:150px;
+    height:200px;
+position:relative;
+    float:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.checkitleft{
+    background-color:white;
+    display: inline-block;
+    width:150px;
+    max-width:150px;
+    height:200px;
+position:relative;
+    float:left;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.checkitright{
+    background-color:white;
+    display: inline-block;
+    width:150px;
+    max-width:150px;
+    height:200px;
+position:relative;
+    float:right;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.checkitcent:hover {background-color:lightyellow;}
+.checkitleft:hover {background-color:lightyellow;}
+.checkitright:hover {background-color:lightyellow;}
+.endit{
+    width:100%;
+    max-width:auto;
+    height: 300px;
+position:relative;
+    background-color:white;
+    display: inline-block;
+    
+}
+.copywrite{
+    font:normal .9em Arial;
+    color:black;
+}
+.projectp{
+    font:normal .9em Arial;
+    color:black;
+}
+.projectph{
+    font:normal 1.2em Arial;
+    color:black;
+}
+.iconptop{
+    border-bottom-width:2px;
+   border-bottom-color:black;
+    border-top-width:2px;
+   border-top-color:black;
+   background-color:white;
+    border-bottom-style: solid;
+    display: inline-block;
+    width:100%;
+    max-width:100%;
+    height:125px;
+position:relative;
+    float:left;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: url(../images/back3.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+   display: inline-block;
+}
+.iconptop:hover{
+    background-color:lightyellow;
+    background: url(../images/back4.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+   display: inline-block;
+}
+.iconp{
+    border-bottom-width:2px;
+   border-bottom-color:black;
+    border-top-width:2px;
+   border-top-color:black;
+   background-color:white;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    display: inline-block;
+    width:100%;
+    max-width:100%;
+    height:125px;
+position:relative;
+    float:left;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: url(../images/back3.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+   display: inline-block;
+}
+.iconp:hover{
+    background-color:lightyellow;
+    background: url(../images/back4.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+   display: inline-block;
+}
+.iconpbot{
+    border-bottom-width:2px;
+   border-bottom-color:black;
+    border-top-width:2px;
+   border-top-color:black;
+   background-color:white;
+    border-top-style: solid;
+    display: inline-block;
+    width:100%;
+    max-width:100%;
+    height:125px;
+position:relative;
+    float:left;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: url(../images/back3.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+   display: inline-block;
+}
+.iconpbot:hover{
+    background: url(../images/back4.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
+   display: inline-block;
+}
+path:hover{fill:blue;}
+#thisName{position:fixed;font-size: 20;}
+ul li ul{
+   max-height:250px;/* you can change as you need it */
+   overflow:auto;/* to get scroll */
+}
+table, th, td {
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    background-color:floralwhite;
+}
+td,a
+{
+    color: black;
+    text-decoration:none;
+}
+td:hover{
+    background-color: beige;
+    cursor: hand;
+}
+body{
+    background-image: url("");
+    border-bottom: 0px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+#map{
+    background:white;
+}
+#tabel{
+    background-color:white;
+}
+#explaindiv{
+    
+}
+#explain{
+    color:white;
+    font-size: 23;
+}
+#end{
+    background-color: white;
+    margin-bottom:0px;
+    border-bottom: 0px;
+}
+#endtext{
+    color:black;
+    font-size: 12;
+}
+#about{
+    background-color: white;
+}
+#aboutBot{
+    padding-bottom: 30px;
+}
+#headerTitle{
+    border-right: none;
+    border-left: none;
+    float:right;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+    padding-top: 0px;
+    margin-top:0px;
+}
+#headerTitleText{
+    font-family: "Courier New";
+    padding-bottom: 0px;
+    margin-bottom:0px;
+    padding-top: 6px;
+    padding-right: 6px;
+    margin-top: 2px;
+    font-size: 35px;
+    text-align: center;
+    color: blue;
+    text-shadow: -1px 0 gold, 0 1px gold, 1px 0 gold, 0 -1px gold;
+    
+}
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+ul.filebar{
+    
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    background:grey;
+    height:3.4%;
+    padding:0;
+    margin:0;
+    border:0;
+}
+ul.filebar{
+        padding: 0;
+        list-style: none;
+    float:left;
+    float:top;
+    background-color: lightgrey;
+       position: fixed;
+    top: 37px;
+    top:42px;
+    width: 100%;
+    height:21px;
+        background-color:grey;
+    
+
+    }
+ul.filebar li{
+        display: block;
+        padding: 0;
+    border:0;
+    margin:0;
+    height:21px;
+        position:relative;
+    width:100px;
+     background-color: lightgrey;
+    }
+ul.filebar li a{
+    color: #333;
+    padding-top:;
+    padding-bottom:-1px;
+        text-decoration: none;
+    padding-top:0%;
+    color: #333;
+        text-decoration: none;
+    display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    width:100px;
+    
+}
+ul.filebar li a:hover{
+    color:black;
+    cursor:pointer;
+}
+
+    ul.filebar li a:hover{
+        background: #939393;
+    }
+    ul.filebar li ul.dropdown2{
+        width: 60px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: relative;
+        z-index: 999;
+        left: 0%;
+        top"-10%;"
+        border-right: none;
+    }
+    ul.filebar li:hover ul.dropdown2{
+        display: block;/* Display the dropdown */
+        border-right: none;
+        background-color: beige;
+        cursor:pointer;
+    }
+
+    ul.filebar li ul.dropdown2 li{
+        float:left;
+        display: block;
+        border-right: none;
+        border-bottom: 1px solid #bbb;
+        left: -40px;
+    }
+ul.filebar li ul.dropdown2 li{
+        position:relative;
+    padding:0;
+    margin:0;
+    border:0;
+    width:100px;
+    }
+ul.filebar li ul.dropdown2 li a{
+    width:100px;
+    cursor:pointer;
+}
+ul.filebar li ul.dropdown2 li ul.sidebar{
+    width: 60px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: relative;
+        z-index: 999;
+        left: 0%;
+        top"-10%;"
+        border-right: none;
+}
+ul.filebar li ul.dropdown2 li ul.sidebar li{
+    float:left;
+        display: block;
+        border-right: none;
+        border-bottom: 1px solid #bbb;
+        left: 80px;
+}
+ul.filebar li ul.dropdown2 li a:active{
+    width:100px;
+    cursor:pointer;
+    background-color:yellow;
+}
+a:active{
+    background-color:yellow;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+.whiteSpace{
+    width:100%;
+    height:100%;
+}
+.smallHead{
+    color:white;
+    position:relative;
+    left: auto;
+    top:0px;
+        padding-bottom: 0px;
+    margin-bottom:0px;
+    padding-top: 6px;
+    margin-top: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+#HOLDER{
+     width:100%;
+    height:40px;
+    top:5px;
+    background-color: white;
+    position:fixed;
+    
+}
+#colorBox{
+  width:500%;
+    
+    left:85%;
+    height:100%;
+    top:40px;
+    background-image: url("../photos/back.jpg");
+    position:fixed;  
+    left:calc(100% - 245px);
+    
+}
+#functionBox{
+  width:245;
+    
+    left:85%;
+    height:100%;
+    top:40px;
+    background-color: azure;
+    position:fixed;  
+    left:0;
+    
+}
+#coolorBox li{
+    width:245px;
+}
+#sidebarSel{
+    width:245px;
+    position:fixed;
+    left:calc(100% - 245px);
+}
+#deez:active{
+background-color: '#939393'
+}
+#sideSeller{
+    width:245px;
+    margin:auto;
+}
+#sideSeller a ul{
+    width:245px;
+    background-color: aqua;
+}
+#selDrop{
+    width:245px;
+    left:calc(0px);
+}
+#selDrop li{
+    width:245px;
+    left:-18%
+}
+#selDrop li a{
+    position: absolute;
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+.menuhead:hover{
+    cursor:default;
+    background-color: aqua;
+}
+#stampDrop:hover{
+    width:100%;
+    height:100%
+        display:block;
+    background-color: black;
+    
+}
+#sideSeller{
+    text-align: center;
+}
+#projectName{
+    text-align:center;
+}
+#project{
+    text-align:center;
+}
+#stamps:active{
+    background-color:#D3D3D3;
+}
+#sideBurr{
+    position:fixed;
+    width:245px;
+    left:calc(100% - 245px);
+    top:calc(100% - 150px);
+    height:150px;
+    background-color: #D3D3D3;
+}
+#aboutcenter{
+    width:600px;
+    background-color: white;
+    height:450px;
+        position:fixed;
+    left: calc(50% - 200px);
+      position: absolute;
+  left: 50%;
+  top: calc( 18.5px + ( 100% - 37px - 450px ) / 2 );
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top:40px;
+}
+#projLI{
+    background-color:#808080;
+}
+#projTEX{
+    position:fixed;
+}
+#color1{
+    width:60px;
+    text-align:center;
+    position:fixed;
+    top:80px;
+    background-color: #F5F5F5;
+    padding:5px;
+    font-size: 11;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 8px 0px 0px 8px;
+    cursor:pointer;
+    height:13px;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+#color2{
+    width:60px;
+    text-align:center;
+    position:fixed;
+    top:80px;
+    background-color: #F5F5F5;
+    padding:5px;
+    font-size: 11;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 0px 8px 8px 0px;
+    cursor:pointer;
+    height:13px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+#colorGradient{
+    width:45px;
+    text-align:center;
+    position:fixed;
+    top:110px;
+    background-color: #F5F5F5;
+    padding:5px;
+    font-size: 10;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 8px 0px 0px 8px;
+    cursor:pointer;
+    height:13px;
+    color: black;
+    background-color: yellow;
+    
+}
+#colorBlock{
+    width:45px;
+    text-align:center;
+    position:fixed;
+    top:110px;
+    background-color: #F5F5F5;
+    padding:5px;
+    font-size: 10;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 0px 8px 8px 0px;
+    cursor:pointer;
+    height:13px;
+    color: black;
+}
+#colorDiv{
+    position:fixed;
+    background-color: black;
+    top:80px;
+    width:2px;
+    height:23px;
+}
+#blockDiv{
+    position:fixed;
+    background-color: black;
+    top:110px;
+    width:2px;
+    height:23px;
+}
+#rgbFormDiv{
+    position:fixed;
+        top:410px;
+    height:19px;
+    width:204px;
+}
+#hsbFormDiv{
+    position:fixed;
+        top:430px;
+    height:19px;
+    width:204px;
+}
+.myText{
+    width:25;
+}
+#colorInputBack{
+    position:fixed;
+    top:405;
+    height:50;
+    width:230px;
+    background-color:white;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.scroll_container {
+    background-color:#000000;
+    width:421px;
+    height:420px;
+    color:#999999;
+    border:2px solid #000000;
+    border-radius:10px;
+    overflow:hidden;
+    text-align:justify;
+}
+#strokeText{
+    position:fixed;
+    top:100px;
+}
+#sliderDiv{
+    position:fixed;
+    top:120px;
+}
+fontNameDiv{
+    position:fixed;
+    top:180px;
+}
+#hardText{
+    position:fixed;
+    top:160px;
+}
+#hardsliderDiv{
+    position:fixed;
+    top:180px;
+}
+#fontTex{
+    position:fixed;
+}
+
+stampNameDiv{
+    position:fixed;
+    top:240px;
+}
+#stampTex{
+    position:fixed;
+}
+
+#propBack{
+    position:fixed;
+    height:300px;
+    width:200px;
+    left:calc(100%-222.5px);
+    top:85px;
+    background-color:white;
+}
+.colorText{
+    font-size:10;
+    position:fixed;
+}
+
+#mouseCoords{
+    position:fixed;
+}
+#toolText{
+    position:fixed;
+}
+#canvasSize{
+    position:fixed;
+}
+#galDrop li{
+}
+#stampDropAct{
+    display:block;
+}
+#heartImage{
+    position: fixed;
+}
+#starImage{
+    position: fixed;
+}
+#treeImage{
+    position: fixed;
+}
+#pixpointDiv{
+    text-align: center;
+position: fixed;
+    width:200;
+    height:50;
+    background-color:white;
+    top:260px;
+}
+#pixpointDiv:hover{
+    cursor:pointer;
+    background-color:yellow;
+}
+
+#contrastDiv{
+    text-align: center;
+position: fixed;
+    width:200;
+    height:50;
+    background-color:white;
+    top:80px;
+}
+#contrastDiv:hover{
+    cursor:pointer;
+    background-color:yellow;
+}
+
+#noiseDiv{
+    text-align: center;
+position: fixed;
+    width:200;
+    height:50;
+    background-color:whit:hovere;
+    top:200px;
+}
+#noiseDiv:hover{
+    background-color:yellow;
+    cursor:pointer;
+}
+
+#resetDiv{
+    text-align: center;
+position: fixed;
+    width:90;
+    height:50;
+    background-color:white;
+    top:320px;
+}
+#tigerDiv{
+    text-align: center;
+position: fixed;
+    width:90;
+    height:50;
+    background-color:white;
+    top:320px;
+}
+#blurButDiv{
+    top:350;
+    position:fixed;
+}
+#resetDiv:hover{
+    background-color:yellow;
+    cursor:pointer;
+}
+#tigerDiv:hover{
+    background-color:yellow;
+    cursor:pointer;
+}
+#noiseDiv{
+    background-color: white;
+}
+#noiseDiv:hover{
+     background-color:yellow;
+    cursor:pointer;
+}
+#blurDiv{
+    text-align: center;
+    top:140px;
+position: fixed;
+    width:200;
+    height:50;
+        background-color:white;
+}
+#blurDiv:hover{
+    cursor:pointer;
+    background-color:yellow;
+}
+#btnLabel:hover{
+    background: #939393;
+}
+
+#btnLabel{
+       border: none;
+    
+    padding-right:47px;
+    padding-top:0px;
+    padding-bottom:5px;
+    cursor: pointer;
+    width:100px;
+    height:21px;
+    overflow: hidden; 
+}
+
+input[type="file"] {
+    display: none;
+}
+.dropdown2{
+   overflow: hidden; 
+}
+#galDrop{
+    overflow: hidden; 
+}
+#blurSliderDiv{
+    position:fixed;
+    top:150;
+}
+#whiteBack{
+    position:fixed;
+    background-color: white;
+    height:325px;
+    width:215px;
+    top:75px;
+}
+
+
+#canvasdiv{
+    cursor:crosshair;
+
+}
+
+#orIn{
+    position: fixed;
+   left:100px; 
+    width:140px;
+}
+
+#desIn{
+    position: fixed;
+   left:100px;  
+    width:140px;
+}
+
+#subIn{
+    position: fixed;
+   left:80px;  
+}

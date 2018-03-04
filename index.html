@@ -1,0 +1,236 @@
+<html>
+<head>
+
+
+     <meta charset="UTF-8"> 
+
+    
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;} </style>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <script language="javascript" type="text/javascript" src="js/js.js"></script>
+
+		<title>Trinity Maps</title>
+		<script type="text/javascript" src="js/js.js"></script>
+		<link rel="stylesheet" href="css/css.css">
+		<link rel="stylesheet" href="css/css.css">
+
+
+    <link rel="shortcut icon" href="photos/fav/favicon.ico" type="image/ico" />
+
+    
+</head>
+	<body>
+        <div unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" class="whiteSpace" onmouseover="mouseOut()"></div>
+        <div id="canvasdiv" onmouseover="mouseOut()" unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; r-select:none;-o-user-select:none;"></div><br>
+        
+        <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br><p></p>
+        <div class="walter"></div>
+
+
+        
+        <!-- Write code above here -->
+        <div id="colorBox" onmouseover="mouseOut()"></div>
+        <div id="functionBox" onmouseover="mouseOut()">
+            <br><br><br>
+                <form>
+  &nbsp;&nbsp;Origin:<input list="rooms" id="orIn" type="text" name="origin"><br><br>
+  &nbsp;&nbsp;Destination: <input list="rooms" id="desIn" type="text" name="dest"><br><br>
+                    &nbsp;&nbsp;&nbsp;<button name="data" onclick="genPaths();return false;">Submit</button>
+                    
+<datalist id="rooms">
+  <option value="N330" data-y="323" data-x="776"><!-- Bot Bot Rooms -->
+
+  <option value="Stair H-F" data-y="323" data-x="916"><!-- Bot Bot Rooms -->
+
+  <option value="N329" data-y="323" data-x="677"><!-- Bot Bot Rooms -->
+
+  <option value="N327" data-y="323" data-x="578"><!-- Bot Bot Rooms -->
+
+  <option value="N326" data-y="323" data-x="478"><!-- Bot Bot Rooms -->
+
+  <option value="Stair N-C" data-y="323" data-x="453"><!-- Bot Bot Rooms -->
+
+  <option value="N325" data-y="323" data-x="383"><!-- Bot Bot Rooms -->
+
+  <option value="N323" data-y="323" data-x="296"><!-- Bot Bot Rooms -->
+
+  <option value="N322 (Math Lab)" data-y="323" data-x="212"><!-- Bot Bot Rooms -->
+
+  <option value="N320" data-y="323" data-x="47"><!-- Bot Bot Rooms -->
+
+  <option value="N321" data-y="296" data-x="128"><!-- Bot Bot Rooms -->
+
+  <option value="N324" data-y="296" data-x="296"><!-- Bot Bot Rooms -->
+
+  <option value="N312" data-y="296" data-x="383"><!-- Bot Bot Rooms ,145-->
+
+
+
+  <option value="N305A" data-y="296" data-x="578"><!-- Bot Bot Rooms -->
+
+  <option value="N328" data-y="296" data-x="657"><!-- Bot Bot Rooms -->
+
+  <option value="N304" data-y="296" data-x="677"><!-- Bot Bot Rooms ,145 -->
+
+   <option value="N302" data-y="296" data-x="776"><!-- Bot Bot Rooms ,145-->
+
+   <option value="N306" data-y="145" data-x="578"><!-- Bot Bot Rooms -->
+
+
+   <option value="N317" data-y="145" data-x="47"><!-- Bot Bot Rooms -->
+
+   <option value="Stair N-A" data-y="115" data-x="27"><!-- Bot Bot Rooms -->
+
+   <option value="N316" data-y="115" data-x="128"><!-- Bot Bot Rooms -->
+
+   <option value="N315" data-y="115" data-x="212"><!-- Bot Bot Rooms -->
+
+   <option value="N314" data-y="115" data-x="296"><!-- Bot Bot Rooms -->
+
+   <option value="N313" data-y="115" data-x="383"><!-- Bot Bot Rooms -->
+
+   <option value="N310" data-y="115" data-x="434"><!-- Bot Bot Rooms -->
+
+    <option value="N308" data-y="115" data-x="436"><!-- Bot Bot Rooms -->
+
+         
+              <option value="N307 History" data-y="115" data-x="578"><!-- Bot Bot Rooms -->
+                  
+                  <option value="N307 Physics" data-y="145" data-x="558"><!-- Bot Bot Rooms ,296-->
+
+      <option value="N305" data-y="115" data-x="677"><!-- Bot Bot Rooms -->
+
+       <option value="N301" data-y="115" data-x="776"><!-- Bot Bot Rooms -->
+
+        <option value="Stair N-B" data-y="115" data-x="916"><!-- Bot Bot Rooms -->
+
+
+</datalist>
+                    
+</form>
+        </div>
+        <div unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onmouseover="mouseOut()" id="HOLDER" onmouseover="mouseOut()"></div>
+        <div unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onmouseover="mouseOut()" id="sideBurr" onmouseover="mouseOut()"></div>
+
+
+
+
+
+
+
+
+        
+        
+
+        
+        
+        
+        
+
+        
+
+        
+        
+        <ul id="fb" class="filebar" unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;">
+        <li><a onmouseover="hov(this)">&nbsp;&nbsp;&nbsp;&nbsp;File &#9662;</a>
+            <ul class="dropdown2">
+                <li class="option" onmouseup="mouseUp(this)" ><a id="recordBut" onclick="recordIt()">&nbsp;&nbsp;Save</a></li>
+                <li class="option" onmouseup="mouseUp(this)" ><a id="deleteBut" onclick="deleteIt()">&nbsp;&nbsp;Delete</a></li>
+                <li class="option" onmouseup="mouseUp(this)" ><a id="reB" onclick="rename(this)">&nbsp;&nbsp;Rename</a></li>
+                <li class="option" onmouseup="mouseUp(this)" ><a id="newBut" onclick="addIt(this)">&nbsp;&nbsp;New</a></li>
+                
+                <li class="option" onmouseup="mouseUp(this)" ><a id="myBtn">&nbsp;&nbsp;Download</a></li>
+                <li class="option" onmouseup="mouseUp(this)" ><label id="btnLabel" for="uploadBTN">&nbsp;&nbsp;Upload
+</label></li>
+                
+            </ul></li>
+
+
+        </ul>
+        <ul unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" class="stuff2" onmouseover="mouseOut()">
+        <li><a class="active" href="#">Home</a></li>
+                         
+                    <li><a href="about/about.html">About</a></li>
+            <li id="headerTitle"><h1 id="headerTitleText">Trinity Maps</h1></li>
+            
+    </ul>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Save Image</h2>
+    </div>
+    <div class="modal-body">
+      <p>How would you like to save your image?</p>
+        <form>
+            <text>Name:&nbsp;&nbsp;&nbsp;</text><input id="saveInput" type="text" name="saveName" value="Untitled">&nbsp;&nbsp;
+      <select id="modalSel">
+  <option value="jpg">.jpg</option>
+  <option value="png">.png</option>
+<option value="tiff">.tiff</option>
+          <option value="raw">.raw</option>
+          <option value="bmp">.bmp</option>
+</select>
+            <br><br>
+            <button rel="no-refresh" id="saveMOD" onclick="actualSave()">Save</button>
+        </form>
+    </div>
+    <div class="modal-footer">
+      <h3>&nbsp;</h3>
+    </div>
+  </div>
+
+</div>
+        <div id="reModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Rename</h2>
+    </div>
+    <div class="modal-body">
+      <p>What would you like to rename your project?</p>
+        <text>Name:&nbsp;&nbsp;&nbsp;</text><input id="renameInput" type="text" name="saveName" value="Untitled">&nbsp;&nbsp;
+        <button rel="no-refresh" onclick="actualRename()">Rename</button>
+        <br><br><br><br>
+    </div>
+    <div class="modal-footer">
+      <h3>&nbsp;</h3>
+    </div>
+  </div>
+
+</div>
+        <div id="imageUploadBut"></div>
+<!--<input id ="file-upload" type="file" onchange="Validate(this);" name="my_file" />-->
+        <!--<canvas id="viewport"></canvas>
+             <img id ="imageUp" src="" width="2800" height="2800" alt="Image preview...">  
+        -->
+        <br><br><br><br><br><br><br><br><p></p>
+<script language="javascript" type="text/javascript" src="js/modal.js"></script>
+        <link rel="stylesheet" href="css/css.css">
+
+        
+        
+        
+    </body>
+</html>
