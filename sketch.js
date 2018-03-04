@@ -137,7 +137,14 @@ function drawGrid(){
     
     if(!firstPass){
     path();
+        
+        var timeE = document.getElementById("time");
+
     var timie = (parseFloat(shortest)*fpp*60*60/3.1/5280);
+        timie = Math.round(timie*1000)/1000;
+                timeE.innerHTML = "&nbsp;&nbsp;Journey Time: "+timie+" s";
+        
+        
     console.log(timie);
     }
     

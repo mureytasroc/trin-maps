@@ -1237,3 +1237,7 @@ input[type="file"] {
     position: fixed;
    left:80px;  
 }
+
+#time{
+    font-size: 15px;
+}
